@@ -297,10 +297,10 @@ def list_pickle_globals(path):
 
 
 # ---- 1. Show environment info BEFORE loading (visible even on failure) ----
-if SHOW_DEBUG:
-    with st.expander("🛠 Debug info (environment & model file)", expanded=True):
-        st.write("**Package versions on Streamlit**")
-        st.json(package_versions())
+#if SHOW_DEBUG:
+    #with st.expander("🛠 Debug info (environment & model file)", expanded=True):
+        #st.write("**Package versions on Streamlit**")
+        #st.json(package_versions())
 
 # ---- 2. Download ----
 try:
