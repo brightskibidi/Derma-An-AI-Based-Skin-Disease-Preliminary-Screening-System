@@ -310,12 +310,12 @@ except Exception:
     st.code(traceback.format_exc())
     st.stop()
 
-if SHOW_DEBUG:
-    with st.expander("🛠 Model file info", expanded=True):
-        st.write({
-            "model_file_size_bytes": model_size,
-            "model_file_md5": model_md5,
-        })
+#if SHOW_DEBUG:
+    #with st.expander("🛠 Model file info", expanded=True):
+        #st.write({
+            #"model_file_size_bytes": model_size,
+            #"model_file_md5": model_md5,
+        #})
 
 # ---- 3. Load (with tracing diagnostics if it fails) ----
 try:
